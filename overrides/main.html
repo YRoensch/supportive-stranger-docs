@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {% set page_title = page.meta.title if page and page.meta and page.meta.title else (page.title if page else config.site_name) %}
+  {% set page_desc = page.meta.description if page and page.meta and page.meta.description else config.site_description %}
+  <link rel="apple-touch-icon" href="{{ 'assets/apple-touch-icon.png' | url }}">
+  <meta name="apple-itunes-app" content="app-id=6760293353">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_desc }}">
+  <meta property="og:image" content="{{ config.site_url }}assets/app-icon.png">
+  {% if page and page.canonical_url %}<meta property="og:url" content="{{ page.canonical_url }}">{% endif %}
+  <meta name="twitter:card" content="summary">
+
+  {% if page and page.is_homepage %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Supportive Stranger",
+    "operatingSystem": "iOS",
+    "applicationCategory": "LifestyleApplication",
+    "description": "A short reflection ritual for iPhone: write up to 100 words about what is on your mind, receive a kind reply and an illustration from an anonymous AI stranger, then reflect and release it. No account needed; your journal stays on your device.",
+    "url": "{{ config.site_url }}",
+    "image": "{{ config.site_url }}assets/app-icon.png",
+    "downloadUrl": "{{ config.extra.app_store_url }}",
+    "installUrl": "{{ config.extra.app_store_url }}",
+    "sameAs": ["{{ config.extra.website_url }}", "{{ config.extra.app_store_url }}"],
+    "offers": [
+      {"@type": "Offer", "name": "First reflection", "price": "0", "priceCurrency": "EUR"},
+      {"@type": "Offer", "name": "Reflection Package: 30 reflections, valid 60 days", "price": "14.99", "priceCurrency": "EUR"}
+    ]
+  }
+  </script>
+  {% endif %}
+
+  {% if page and page.meta and page.meta.faq_schema %}
+  <script type="application/ld+json">{{ page.meta.faq_schema }}</script>
+  {% endif %}
+{% endblock %}

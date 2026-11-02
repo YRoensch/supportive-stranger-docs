@@ -1,0 +1,109 @@
+site_name: Supportive Stranger Help
+site_description: >-
+  Official user guide for Supportive Stranger, the iPhone app for short
+  reflection: write what weighs on you, receive a kind reply and an
+  illustration from an anonymous AI stranger, then release it.
+site_url: https://yroensch.github.io/supportive-stranger-docs/
+site_author: Supportive Stranger
+copyright: >-
+  &copy; Supportive Stranger &middot;
+  <a href="https://supportive-stranger-app.com">supportive-stranger-app.com</a> &middot;
+  <a href="https://supportive-stranger-app.com/#privacy-policy-app">Privacy Policy</a>
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  logo: assets/app-icon.png
+  favicon: assets/favicon.png
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.tooltips
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+hooks:
+  - hooks/faq_schema.py
+
+extra:
+  app_store_url: https://apps.apple.com/de/app/supportive-stranger/id6760293353?l=en-GB
+  website_url: https://supportive-stranger-app.com
+  privacy_url: https://supportive-stranger-app.com/#privacy-policy-app
+  generator: false
+  social:
+    - icon: fontawesome/brands/app-store-ios
+      link: https://apps.apple.com/de/app/supportive-stranger/id6760293353?l=en-GB
+      name: Supportive Stranger on the App Store
+    - icon: material/web
+      link: https://supportive-stranger-app.com
+      name: supportive-stranger-app.com
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - First launch: getting-started.md
+      - How a reflection works: how-it-works.md
+  - Using the app:
+      - Writing an entry: features/writing-an-entry.md
+      - Dark thoughts and neutral notes: features/modes.md
+      - "Don't know where to start?": features/sort-it-out.md
+      - The stranger's reply: features/the-stranger.md
+      - The illustration: features/the-illustration.md
+      - Reflect and release: features/release.md
+      - The journal: features/journal.md
+      - Settings: features/settings.md
+  - Reflections and purchases:
+      - Pricing and reflections: pricing.md
+      - Buying a reflection pack: buying.md
+      - Withdrawal and refunds: withdrawal.md
+  - Privacy and safety:
+      - Privacy and your data: privacy.md
+      - Safety and wellbeing: safety.md
+  - Why it works: why-it-works.md
+  - FAQ: faq.md
+  - Contact and legal: contact.md

@@ -1,0 +1,38 @@
+# Supportive Stranger
+
+> Supportive Stranger is an iPhone app for short, private reflection. You write up to 100 words about what is on your mind; an anonymous AI "stranger" replies with warmth (no judgment, no advice) and turns your words into an illustrated scene with your chosen character in it. In "Dark thoughts – Reflect & release" mode you then write what you would tell yourself (about 30 characters) and tap the image twice to crack and shatter it. In "Neutral notes – Save & keep" mode you simply save the moment. No account; the journal is stored only on the iPhone. One free reflection; then a Reflection Package of 30 reflections valid for 60 days (e.g. €14.99 in Germany), no subscription. A wellness tool, not a medical device, therapy or crisis service. Age 17+. English only.
+
+- App Store: https://apps.apple.com/de/app/supportive-stranger/id6760293353?l=en-GB
+- Website: https://supportive-stranger-app.com
+- Privacy Policy: https://supportive-stranger-app.com/#privacy-policy-app
+
+## Getting started
+
+- [Home – what Supportive Stranger is, key facts](https://yroensch.github.io/supportive-stranger-docs/)
+- [First launch – legal screens, character, sample reflection, free reflection](https://yroensch.github.io/supportive-stranger-docs/getting-started/)
+- [How a reflection works – write, be met, see it from outside, release](https://yroensch.github.io/supportive-stranger-docs/how-it-works/)
+
+## Features
+
+- [Writing an entry – 100-word limit, word counter, Talk to Me, messages](https://yroensch.github.io/supportive-stranger-docs/features/writing-an-entry/)
+- [Dark thoughts and Neutral notes – the two modes](https://yroensch.github.io/supportive-stranger-docs/features/modes/)
+- [Don't know where to start? – Let's sort it out and writing prompts](https://yroensch.github.io/supportive-stranger-docs/features/sort-it-out/)
+- [The stranger's reply – anonymous AI, no memory, no advice](https://yroensch.github.io/supportive-stranger-docs/features/the-stranger/)
+- [The illustration – AI scene from your words, share or save](https://yroensch.github.io/supportive-stranger-docs/features/the-illustration/)
+- [Reflect and release – crack and shatter the scene](https://yroensch.github.io/supportive-stranger-docs/features/release/)
+- [The journal – Released/Kept, search, sort, filter, delete](https://yroensch.github.io/supportive-stranger-docs/features/journal/)
+- [Settings – balance, Buy, withdrawal, Face ID, appearance, character](https://yroensch.github.io/supportive-stranger-docs/features/settings/)
+
+## Reflections and purchases
+
+- [Pricing and reflections](https://yroensch.github.io/supportive-stranger-docs/pricing/)
+- [Buying a Reflection Package](https://yroensch.github.io/supportive-stranger-docs/buying/)
+- [Withdrawal and refunds](https://yroensch.github.io/supportive-stranger-docs/withdrawal/)
+
+## Privacy, safety, background
+
+- [Privacy and your data](https://yroensch.github.io/supportive-stranger-docs/privacy/)
+- [Safety and wellbeing, crisis lines](https://yroensch.github.io/supportive-stranger-docs/safety/)
+- [Why it works – expressive writing, externalisation, closure ritual](https://yroensch.github.io/supportive-stranger-docs/why-it-works/)
+- [FAQ](https://yroensch.github.io/supportive-stranger-docs/faq/)
+- [Contact and legal](https://yroensch.github.io/supportive-stranger-docs/contact/)
